@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    <div class="main-container" id="mainCon" >
+      <h1>Welcome To Weather <br> App</h1>
+    </div>
+
+    <div class="weather-app" id="box">
+      <h1>Weather App</h1>
+      <form id="weather-form">
+        <input type="text" id="city" placeholder="Enter city name" required />
+        <button type="submit">Get Weather</button>
+      </form>
+      <div id="weather-result">
+        <h2 id="city-name"></h2>
+        <p id="iconCol"></p>
+
+       <div class="temp-container">
+        <p id="temperature"></p>
+        <button id="toggle-temp" style="display: none"> °C/°F</button>
+       </div>
+
+        <p id="description"></p>
+        <p id="humidity"></p>
+
+        <p id="Wind"></p>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
