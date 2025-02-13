@@ -78,10 +78,16 @@ body {
     
 
   }
+#iconCol{
+  background-color: transparent !important;
+}
   
   #weather-result p {
     font-size: 18px;
-    
+    background-color: rgba(128, 128, 128, 0.305);
+  margin: 5px 0px;
+  border-radius: 10px;
+    color: rgb(0, 34, 114);
   }
   
   .main-container{
